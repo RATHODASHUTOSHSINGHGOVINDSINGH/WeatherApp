@@ -29,9 +29,10 @@ function App() {
 //  API call from backend
   const fetchWeather = async () => {
     try {
-      const response = await fetch(
-        `http://localhost:5000/weather?city=${city}`
-      );
+      // const response = await fetch(
+      //   `http://localhost:5000/weather?city=${city}`
+      // );
+      const response = await fetch(`/api/weather?city=${city}`); 
       const data = await response.json();
       if (data.error) {
         setError(data.error);
