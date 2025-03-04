@@ -1,6 +1,6 @@
  # Weather App
 
-This is my  Weather App built using React.js and Vite.
+This is my  Weather App built using React.js and Vite and  Tailwind CSS.
 
 ## Installation
 
@@ -106,18 +106,8 @@ Update `vercel.json`:
   }
 ```
 
-### 8. Deploying Serverless Functions
-Once your functions are set up, deploy the project to Vercel by running:
-```sh
-vercel
-```
-
-Your serverless functions will be available at:
-```
-https://your-vercel-app.vercel.app/api/hello
-```
-
-### 9. Run Locally
+ 
+### 8. Run Locally
 To start the development server:
 ```sh
 npm run dev
